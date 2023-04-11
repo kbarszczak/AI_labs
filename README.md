@@ -28,14 +28,15 @@ After cloning the repository run the jupyter notebook
 ```
 jupyter notebook
 ```
-Then go to any of the notebooks from TSD_project/model/ and run: kernel -> restart and run all
-Email me to get the preprocessed training dataset.
+Then go to any of the notebooks from TSD_project/model/ and run: kernel -> restart and run all. Email me to get the preprocessed training dataset.
 
-To test the system run the following notebook: TSD_project/env/SW_ENV_V1.ipynb set up paths to the AI model and the test photo and run all.
-The result is going to be presented in the last cell.
+To test the system run the following notebook: TSD_project/env/SW_ENV_V1.ipynb set up paths to the AI model and the test photo and run all. The result is going to be presented in the last cell.
 
 ## Possible improvements
 The following may be improved in this project:
 - The conflict elimination algorithm in the SW_ENV_V1.ipynb notebook. Sometimes it merges the objects that should be splitted
 - Training models on data processed in a better way (eg. CLAHE on training dataset - it is already done but the results are not presented)
 - Implement a better technique than sliding window (eg. try to detect objects in a circular shape and send only those for the classifier)
+
+# ANN (Advanced neural networks)
+This contains all the projects made for the AI classes. The projects are related to RNN (recurrent neural networks) and other types of NN (neural networks) used to process sequential data.
